@@ -1,0 +1,88 @@
+completed tf tensor
+  0%|                                                                                                | 0/6 [00:00<?, ?it/s]2023-05-17 22:16:02.161657: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 5654896000 exceeds 10% of free system memory.
+Epoch 1/5
+2023-05-17 22:16:05.997494: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2023-05-17 22:16:06.573004: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8201
+2023-05-17 22:16:06.868350: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2023-05-17 22:16:07.682150: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+173/173 [==============================] - 46s 250ms/step - loss: 8.3215 - accuracy: 0.3896 - val_loss: 7.7097 - val_accuracy: 0.4671
+Epoch 2/5
+173/173 [==============================] - 68s 394ms/step - loss: 7.4339 - accuracy: 0.4740 - val_loss: 7.0567 - val_accuracy: 0.5097
+Epoch 3/5
+173/173 [==============================] - 92s 531ms/step - loss: 6.9792 - accuracy: 0.5109 - val_loss: 6.7321 - val_accuracy: 0.5375
+Epoch 4/5
+173/173 [==============================] - 92s 531ms/step - loss: 6.6938 - accuracy: 0.5349 - val_loss: 6.6246 - val_accuracy: 0.5495
+Epoch 5/5
+173/173 [==============================] - 89s 516ms/step - loss: 6.4652 - accuracy: 0.5530 - val_loss: 6.4180 - val_accuracy: 0.5628
+alpha 0.0
+[0.4671385884284973, 0.5096890926361084, 0.5374704003334045, 0.5494639873504639, 0.5627562403678894]
+[0.38964608311653137, 0.47400200366973877, 0.5108522176742554, 0.5348653793334961, 0.5530301332473755]
+ 17%|██████████████▌                                                                        | 1/6 [06:29<32:25, 389.08s/it]2023-05-17 22:22:31.242347: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 5654896000 exceeds 10% of free system memory.
+Epoch 1/5
+173/173 [==============================] - 87s 500ms/step - loss: 7.0012 - accuracy: 0.3778 - val_loss: 6.5820 - val_accuracy: 0.4440
+Epoch 2/5
+173/173 [==============================] - 94s 544ms/step - loss: 6.3741 - accuracy: 0.4548 - val_loss: 6.0486 - val_accuracy: 0.5001
+Epoch 3/5
+173/173 [==============================] - 90s 521ms/step - loss: 5.9366 - accuracy: 0.4976 - val_loss: 5.7179 - val_accuracy: 0.5155
+Epoch 4/5
+173/173 [==============================] - 93s 537ms/step - loss: 5.6955 - accuracy: 0.5209 - val_loss: 5.5877 - val_accuracy: 0.5322
+Epoch 5/5
+173/173 [==============================] - 93s 539ms/step - loss: 5.5291 - accuracy: 0.5368 - val_loss: 5.4241 - val_accuracy: 0.5499
+alpha 0.2
+[0.4439917504787445, 0.5000891089439392, 0.5154948830604553, 0.5321738719940186, 0.5498968958854675]
+[0.3778134882450104, 0.4548299312591553, 0.49756529927253723, 0.5208739638328552, 0.5367921590805054]
+ 33%|█████████████████████████████                                                          | 2/6 [14:10<28:47, 431.76s/it]2023-05-17 22:30:12.882562: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 5654896000 exceeds 10% of free system memory.
+Epoch 1/5
+173/173 [==============================] - 90s 519ms/step - loss: 5.5086 - accuracy: 0.3885 - val_loss: 5.1818 - val_accuracy: 0.4521
+Epoch 2/5
+173/173 [==============================] - 92s 534ms/step - loss: 5.0101 - accuracy: 0.4631 - val_loss: 4.7491 - val_accuracy: 0.4923
+Epoch 3/5
+173/173 [==============================] - 95s 551ms/step - loss: 4.6903 - accuracy: 0.5025 - val_loss: 4.5754 - val_accuracy: 0.5241
+Epoch 4/5
+173/173 [==============================] - 96s 554ms/step - loss: 4.5142 - accuracy: 0.5255 - val_loss: 4.4124 - val_accuracy: 0.5333
+Epoch 5/5
+173/173 [==============================] - 95s 551ms/step - loss: 4.3811 - accuracy: 0.5421 - val_loss: 4.2955 - val_accuracy: 0.5534
+alpha 0.4
+[0.4521402418613434, 0.49227166175842285, 0.5240762829780579, 0.5333452224731445, 0.5533599853515625]
+[0.3884916603565216, 0.4630720019340515, 0.5024884343147278, 0.5254632234573364, 0.5420746803283691]
+ 50%|███████████████████████████████████████████▌                                           | 3/6 [22:04<22:32, 450.75s/it]2023-05-17 22:38:06.238498: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 5654896000 exceeds 10% of free system memory.
+Epoch 1/5
+173/173 [==============================] - 92s 526ms/step - loss: 4.0539 - accuracy: 0.3865 - val_loss: 3.8363 - val_accuracy: 0.4492
+Epoch 2/5
+173/173 [==============================] - 96s 555ms/step - loss: 3.7024 - accuracy: 0.4704 - val_loss: 3.5199 - val_accuracy: 0.5076
+Epoch 3/5
+173/173 [==============================] - 95s 553ms/step - loss: 3.4815 - accuracy: 0.5075 - val_loss: 3.3875 - val_accuracy: 0.5277
+Epoch 4/5
+173/173 [==============================] - 92s 535ms/step - loss: 3.3666 - accuracy: 0.5274 - val_loss: 3.2903 - val_accuracy: 0.5437
+Epoch 5/5
+173/173 [==============================] - 95s 551ms/step - loss: 3.2671 - accuracy: 0.5435 - val_loss: 3.2540 - val_accuracy: 0.5511
+alpha 0.6
+[0.4492373466491699, 0.5076010227203369, 0.5276921987533569, 0.543683648109436, 0.5510682463645935]
+[0.38647714257240295, 0.47036904096603394, 0.5074682235717773, 0.527387261390686, 0.543472409248352]
+ 67%|██████████████████████████████████████████████████████████                             | 4/6 [30:31<15:46, 473.12s/it]2023-05-17 22:46:33.664754: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 5654896000 exceeds 10% of free system memory.
+Epoch 1/5
+173/173 [==============================] - 68s 390ms/step - loss: 2.5696 - accuracy: 0.3962 - val_loss: 2.4811 - val_accuracy: 0.4419
+Epoch 2/5
+173/173 [==============================] - 94s 545ms/step - loss: 2.3924 - accuracy: 0.4713 - val_loss: 2.2807 - val_accuracy: 0.5062
+Epoch 3/5
+173/173 [==============================] - 95s 549ms/step - loss: 2.2599 - accuracy: 0.5106 - val_loss: 2.2312 - val_accuracy: 0.5225
+Epoch 4/5
+173/173 [==============================] - 95s 550ms/step - loss: 2.1849 - accuracy: 0.5324 - val_loss: 2.1550 - val_accuracy: 0.5418
+Epoch 5/5
+173/173 [==============================] - 94s 547ms/step - loss: 2.1303 - accuracy: 0.5479 - val_loss: 2.1238 - val_accuracy: 0.5489
+alpha 0.8
+[0.44185277819633484, 0.5062259435653687, 0.5224975347518921, 0.5417738556861877, 0.5489292144775391]
+[0.3962498903274536, 0.47128576040267944, 0.5106145143508911, 0.5323924422264099, 0.5478523373603821]
+ 83%|████████████████████████████████████████████████████████████████████████▌              | 5/6 [38:02<07:45, 465.27s/it]Epoch 1/5
+173/173 [==============================] - 89s 513ms/step - loss: 1.0759 - accuracy: 0.3945 - val_loss: 1.0449 - val_accuracy: 0.4450
+Epoch 2/5
+173/173 [==============================] - 92s 531ms/step - loss: 1.0240 - accuracy: 0.4663 - val_loss: 0.9921 - val_accuracy: 0.4958
+Epoch 3/5
+173/173 [==============================] - 91s 529ms/step - loss: 0.9829 - accuracy: 0.5063 - val_loss: 0.9657 - val_accuracy: 0.5175
+Epoch 4/5
+173/173 [==============================] - 92s 531ms/step - loss: 0.9589 - accuracy: 0.5273 - val_loss: 0.9597 - val_accuracy: 0.5224
+Epoch 5/5
+173/173 [==============================] - 93s 541ms/step - loss: 0.9412 - accuracy: 0.5402 - val_loss: 0.9412 - val_accuracy: 0.5400
+alpha 1.0
+[0.44503578543663025, 0.4958111643791199, 0.5174810886383057, 0.52242112159729, 0.5400422811508179]
+[0.394453227519989, 0.46626073122024536, 0.5063138008117676, 0.527293860912323, 0.5402072668075562]
