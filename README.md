@@ -1,4 +1,6 @@
-# distilBERT_BiLSTM
+# Knowledge Distillation from BERT to BiLSTM
+
+All the details about the experiments and their results are present in Report.pdf. Following notes corresponds to the explanation of the code files. 
 
 NOTE: You should have the glove embeddings file and also load the datasets before you run the student model code (BiLSTM).
 
